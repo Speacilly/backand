@@ -15,7 +15,7 @@ CREATE TABLE "product" (
     "price" DECIMAL(10,2),
     "description" TEXT,
     "qty" INTEGER,
-
+    "image" TEXT,
     CONSTRAINT "product_pkey" PRIMARY KEY ("id")
 );
 
